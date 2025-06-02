@@ -1,4 +1,5 @@
 from src.calculator import *
+import pytest
 
 def test_sum():
     assert sum(1, 1) == 2
@@ -13,3 +14,11 @@ def test_multiply():
     assert multiply(2, 3) == 6
     assert multiply(6, 6) == 36
     assert multiply(-4, 5) == -20
+
+def test_divide():
+    assert divide(9, 3) == 3
+    assert divide(24, 6) == 4
+    assert divide(-10, 5) == -2
+
+    with pytest.raises(ValueError, match="Division by 0 is not possible."):
+        divide(10, 0)
