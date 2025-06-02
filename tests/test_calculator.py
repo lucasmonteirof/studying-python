@@ -11,5 +11,5 @@ def test_subtract():
 
 def test_divide():
     assert divide(9, 3) == 3
-    assert divide(24, 6) == 6
+    assert divide(24, 6) == 4
     assert divide(-10, 5) == -2
