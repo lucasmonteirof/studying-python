@@ -1,1 +1,1 @@
-from src.sum import soma
+from src.calculator import soma
