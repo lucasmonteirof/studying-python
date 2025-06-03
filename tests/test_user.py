@@ -1,4 +1,4 @@
-from src.user import User
+from src.models.user import User
 import datetime
 
 def test_user_init():

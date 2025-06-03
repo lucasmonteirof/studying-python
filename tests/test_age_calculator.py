@@ -1,4 +1,4 @@
-from src.age_calculator import AgeCalculator
+from src.utils.age_calculator import AgeCalculator
 import datetime
 from freezegun import freeze_time
 

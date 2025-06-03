@@ -1,4 +1,4 @@
-from src.calculator import *
+from src.utils.calculator import *
 import pytest
 
 def test_sum():
